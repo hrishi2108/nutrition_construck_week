@@ -1,0 +1,36 @@
+.summary-container {
+  max-width: 800px;
+  margin: auto;
+  background-color: #fffef8;
+  padding: 2rem;
+  border: 1px solid #e6dcc8;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.06);
+}
+
+.summary-container h2 {
+  color: #5b3f29;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.summary-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.summary-table th,
+.summary-table td {
+  padding: 12px;
+  border: 1px solid #ddd3be;
+  text-align: center;
+}
+
+.summary-table th {
+  background-color: #f5e9d4;
+  color: #493524;
+}
+
+.summary-table tr:nth-child(even) {
+  background-color: #fcf8f0;
+}
